@@ -16,9 +16,10 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
 
-      - name: Build and test with Rake
+      - name: Build with ugollum-site'
         run: |
           gem install bundler
+          bundle config path 'vendor/bundle'
           bundle install --jobs 4 --retry 3
           bundle exec gollum-site generate
           ls -Rl
