@@ -1,6 +1,6 @@
 # Everything I (don't) know
 
-![banner](./_assets/knowledge.jpg)
+![banner](./_assets/knowledge1500.jpg)
 
 > from [unsplash](unsplash.com), from [quotecatalog](www.quotecatalog.com)
 
